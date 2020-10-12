@@ -4,7 +4,8 @@ array = [1, "hello", [], 5.01, "world", :name, { a: 1 }]
 def count_strings(array)
   array.count do |element|
     if element.class == String 
-    end 
+    end
+    return array
   end 
 end 
 
