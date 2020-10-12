@@ -8,7 +8,7 @@ def count_strings(array)
   end 
 end 
 
-count_strings(array)
+puts count_strings(array)
 
 # def count_empty_strings(array)
 #   # Return the total number of EMPTY strings in the provided array using the count enumerable
